@@ -5,6 +5,6 @@ export default () => (
   <div>
     <h1>This is an about page</h1>
     <Link to="/">Return Home</Link>
-    <p>Call me Ishmael.</p>
+    <p>Let's go for a ride with the dog!</p>
   </div>
 )
