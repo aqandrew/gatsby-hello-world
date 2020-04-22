@@ -1,3 +1,15 @@
-import React from "react"
+import React, { useState } from "react"
 
-export default () => <div>Hello world!</div>
+const Counter = () => {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)}>
+        Number of times clicked: {count}
+      </button>
+    </div>
+  )
+}
+
+export default () => <Counter />
