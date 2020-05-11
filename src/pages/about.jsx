@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Header from "../components/header"
+import Header from "../components/Header"
 
-export default () => (
+const About = () => (
   <div>
     <Header headerText="This is an About page" />
     <Header headerText="It has a Header component" />
@@ -11,3 +11,5 @@ export default () => (
     <p>Let's go for a ride with the dog!</p>
   </div>
 )
+
+export default About

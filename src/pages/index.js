@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-const Counter = () => {
+const Home = () => {
   const [count, setCount] = useState(0)
 
   return (
@@ -17,4 +17,4 @@ const Counter = () => {
   )
 }
 
-export default () => <Counter />
+export default Home
