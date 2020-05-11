@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <div>
       <h1>Hello Gatsby!</h1>
-      <Link to="/about/" style={{ display: `block` }}>
-        About
-      </Link>
+      <nav>
+        <Link to="/about/">About</Link>
+      </nav>
       <button onClick={() => setCount(count + 1)}>
         Number of times clicked: {count}
       </button>
